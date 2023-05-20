@@ -1,0 +1,32 @@
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: skyblue;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+ul li{
+    list-style: none;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 10px;
+
+}
+li a{
+    text-decoration: none;
+    color: rgb(106, 52, 156);
+    opacity: .8;
+    
+}
+li a:hover{
+    opacity: 1;
+}
